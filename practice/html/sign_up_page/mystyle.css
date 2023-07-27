@@ -1,0 +1,152 @@
+*{
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.sign-section{
+    width: 50%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: white;
+}
+.sign-heading{
+    width: 100%;
+    
+}
+.sign-heading h1{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.sign-heading span{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.sign-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sign-left{
+    width: 50%;
+
+}
+.sign-right{
+    width: 50%;
+    color: #fafafa;
+    background-image: url(a.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+.form-group{
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    padding: 8px;
+    position: relative;
+    justify-content: space-between;
+}
+.form-group input{
+    width: 100%;
+    border: 1px solid skyblue;
+    height: 30px;
+    border-radius: 12px;
+    outline: none;
+    color: black;
+}
+.form-group:nth-child(2) span{
+    position: absolute;
+    left: 8%;
+    top: 18px;
+    color: skyblue;
+
+}
+.form-group:nth-child(3) span:nth-child(1){
+    position: absolute;
+    left: 8%;
+    top: 18px;
+    color: skyblue;
+
+}
+.form-group:nth-child(3) span:nth-child(3){
+    position: absolute;
+    right: 8%;
+    top: 18px;
+    color: skyblue;
+}
+.form-group:nth-child(1){
+    margin-top: 30px;
+    display: block;
+    
+}
+.form-group:nth-child(1) h3{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6px;
+}
+.form-group:nth-child(1) p{
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+}
+.form-group input[type='radio']{
+    width: 20%;
+    height: 10px;
+}
+.rem{
+    width: 50%;
+}
+.forgot{
+    text-decoration: none;
+    color: skyblue;
+}
+.button-group button{
+    width: 90%;
+    border: 1px solid skyblue;
+    height: 30px;
+    border-radius: 12px;
+    outline: none;
+    color: white;
+    display: block;
+    margin-left: 5%;
+    background-color: skyblue;
+    margin-bottom: 10px;
+}
+.button-group h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 100px;
+}
+.button-group h3 a{
+    text-decoration: none;
+    color: skyblue;
+}
+.sign-right{
+    display: flex;
+    align-items: center;
+}
+.sign-right h2, .sign-right p{
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .sign-container{
+        width: 100%;
+        display: block;
+    }
+    .sign-left{
+        width: 100%;
+    
+    }
+    .sign-right{
+       display: none;
+    }
+    
+}

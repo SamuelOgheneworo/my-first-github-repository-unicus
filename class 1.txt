@@ -1,0 +1,25 @@
+websites
+-w3schools.com
+-tutorialpoint.com
+-codecademy.com
+
+Frontend		
+   ^
+  html- hypertext markup language
+   ^
+  css - cascading style sheet(for adding style)
+   ^
+ javscript (for adding funtionality)==
+
+Backend
+   ^
+  PHP
+   ^
+ Django
+   ^
+ node.js
+
+assignment: differenc between client side language and server side language
+sign up chatGPT
+
+!2#$%%^&*(0-+{}:"|?><:"!@~|

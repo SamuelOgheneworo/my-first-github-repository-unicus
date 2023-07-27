@@ -1,0 +1,48 @@
+ 						<HTML5>
+What is HTML?
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+basic HTML practices
+
+<!DOCTYPE html> - declares that the document is html5
+<html> - Root html
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+Nested Element
+HTML elements can be nested (this means that elements can contain other elements).
+
+All HTML documents consist of nested HTML elements.
+
+The following example contains four HTML elements (<html>, <body>, <h1> and <p>)
+
+Example
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+
+Empty HTML Elements
+HTML elements with no content are called empty elements.
+
+The <br> tag defines a line break, and is an empty element without a closing tag:
+
+Example
+<p>This is a <br> paragraph with a line break.</p>
+
+Assignment: read on Html attributes
+create a html file, in the body create 3 tags
+heading tag - name
+paragraph tag - about myself
+image tag - my picture
+
